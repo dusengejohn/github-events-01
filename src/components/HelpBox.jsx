@@ -10,7 +10,7 @@ function HelpBox({ title, text }) {
     </article>
   );
 }
-
+// Add prop types for the HelpBox component
 HelpBox.propTypes = {
   title: string,
   text: string,
