@@ -5,12 +5,12 @@ import './HelpBox.css';
 function HelpBox({ title, text }) {
   return (
     <article className="help-box">
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p>{text}</p>
     </article>
   );
 }
-
+// Add prop types for the HelpBox component
 HelpBox.propTypes = {
   title: string,
   text: string,
